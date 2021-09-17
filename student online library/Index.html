@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bs.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+</head>
+  <body id="home">
+<!-- menu list -->
+<header >
+  <div class="headerfile" >
+  <nav class=" navbar navbar-expand-sm bg-light navbar-light" >
+    <a class="navbar-brand" href="#">
+        <img class="logo" src="image/logo.gif" alt="logo" style="width:40px;" data-toggle="tooltip" data-placement="bottom" title="Vivek & Siddhant">
+    </a>
+    <ul class="navbar-nav mr-auto" >
+             <li class="nav-item">
+               <a class="nav-link" href="/Index.html">Home</a>
+                 </li>
+               </ul>
+           <ul class="navbar-nav ml-auto" >
+             <li class="nav-item">
+               <a class="nav-link" href="/About.html">About</a>
+                 </li>
+
+              <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle text-black-50 bg-light" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Branches
+               </button>
+               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+               <a class="dropdown-item" href="/Branch.html">Computer Science</a>
+               <a class="dropdown-item" href="/Branch.html">Civil</a>
+               <a class="dropdown-item" href="/Branch.html">Food tech</a>
+               <a class="dropdown-item" href="/Branch.html">Mechanical</a>
+               <a class="dropdown-item" href="/Branch.html">Electrical</a>
+               </div>
+               </div>
+
+            
+             <li class="nav-item">
+               <a class="nav-link" href="#library">Library</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/Gallery.html">Gallery</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/Login.html">Login</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/Register.html">Register</a>
+             </li>
+           </ul>
+  
+         <form class="form-inline" action="/action_page.php">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+         </form>
+    </nav>
+  </div>
+<!-- carousel slider image -->
+<br>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/a9.jpg" alt="india" width="1100" height="300">
+<div class="carousel-caption">
+        <h3>MEERUT</h3>
+      <p>Subharti University</p>
+    </div>
+     </div>
+    <div class="carousel-item">
+      <img src="image/a8.jpg" alt="delhi" width="1100" height="300">
+    <div class="carousel-caption">
+        <h3>LIBRARY</h3>
+    </div>
+     </div>
+    <div class="carousel-item">
+      <img src="image/a0.jpg" alt="agra" width="1100" height="300">
+    <div class="carousel-caption">
+        <h3>LIBRARY</h3>
+    </div>
+  </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</header>
+
+
+
+<!-- more about us -->
+
+<section>
+  
+<div class="about_p p-5 ">
+    <h1 class="text-capitalize text-center pt-5" id="services">more about us</h1>
+    <hr class="w-25 mx-auto pb-5">
+    <p class="about_para">
+     A website is a collection of web pages, thus a portal is a collection of links to different websites. The student portal is a gateway to connect many web applications which is useful for doing student activities. The portal web page provides access to many applications such as online courses and links to different websites. 
+ Student Portal is  nothing but a portal  which thinks students  as the main target  users & provides so  many useful services  to students at a single  place & through a  single interface but in  customized form.
+</p>
+</section>
+
+<section>
+  <div class="container " id="contact us">
+    <h1 class="text-capitalize text-center pt-5" id="us">contact us</h1>
+    <hr class="w-25 mx-auto pb-5">
+   </div>
+  <div class="w-25 mx-auto pb-5">
+    <form action="/action_page.php">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="name" class="form-control" id="name " placeholder="Enter name" name="name" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="enter id" placeholder="Enter email id" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="mobile no">Mobile no</label>
+      <input type="number" class="form-control" id="number" placeholder="mobile no" name="number" autocomplete="off">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+  </div>
+  <a href="https://api.whatsapp.com/send?
+         phone=8979686974
+         %text=hey am siddhant."
+   		 class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+</section>
+</section>
+<section>
+  <div class="like">
+    <div> <button class="btn btn-warning">like</button></div>
+    <div> <button class="btn btn-warning">share</button></div>
+    <div> <button class="btn btn-warning"> subscibe</button></div>
+  </div>
+</section >
+<footer>  
+  <p class="text-center bg-dark text-light">@copyright sidhuchaudhary </p>
+</footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
